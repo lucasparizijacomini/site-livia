@@ -3,6 +3,10 @@ import { HomeComponent } from './pages/home/home.component';
 
 export const routes: Routes = [
   {
+    path: '**',
+    redirectTo: '',
+  },
+  {
     path: '',
     pathMatch: 'full',
     component: HomeComponent,
