@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-center w-screen h-screen">
+<div class="flex flex-col justify-center">
   <div
     class="flex flex-col h-[200px] sm:h-[300px] md:h-[500px] lg:h-[300px] w-screen bg-gray-600 justify-center items-center text-center"
   >
@@ -13,7 +13,7 @@
     <a
       class="p-3 bg-white border-solid rounded-3xl w-80 font-bold text-sm"
       [href]="linkwppSite"
-      >Fale com Advogado</a
+      >Fale com um Advogado</a
     >
   </div>
 
@@ -35,10 +35,14 @@
         </span>
         <a
           class="border-2 h-12 mt-10 w-3/4 mr-auto ml-auto mb-6 bg-gray-600 text-white flex p-4 rounded-md font-roboto text-center items-center justify-center"
-          [href]="linkwppSite"
+          [href]="returnLinkSite(item)"
           >Saiba se você tem direito</a
         >
       </div>
     </div>
+  </div>
+
+  <div class="bg-gray-600">
+    <p>TESTANDO RODAPÈ</p>
   </div>
 </div>

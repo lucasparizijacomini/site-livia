@@ -27,4 +27,8 @@ export class HomeComponent {
       'AUXÍLIO RECLUSÃO',
     ];
   }
+
+  returnLinkSite(beneficio: string): string {
+    return `https://wa.me/16993493657/?text=Olá, vim através do site e gostaria de mais informações sobre ${beneficio}.`;
+  }
 }
