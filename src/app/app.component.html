@@ -1,14 +1,21 @@
 <nav class="bg-white dark:bg-white fixed w-full z-20 top-0 start-0 shadow-lg">
   <div class="w-screen flex items-center justify-between p-4">
-    <!-- Logotipo e descrição -->
-    <a href="/" class="flex flex-col items-center">
+    <a
+      href="/"
+      aria-label="Voltar a pagina principal do site Advogada Livia de Almeida Lira"
+      class="flex flex-col items-center"
+    >
       <span
         class="self-center text-lg md:text-2xl font-DMSans font-bold text-black"
         >Lívia de Almeida Lira</span
       >
-      <span class="font-bold text-xs md:text-sm"
-        ><a href="/">Advogada Previdenciária</a>
-      </span>
+      <h1 class="font-bold text-xs md:text-sm">
+        <a
+          href="/"
+          aria-label="Voltar a pagina principal do site Advogada Livia de Almeida Lira"
+          >Advogada Previdenciária</a
+        >
+      </h1>
     </a>
 
     <!-- Botão de menu (hambúrguer) para celulares -->
@@ -34,17 +41,33 @@
       </svg>
     </button>
 
-    <!-- Links (apenas em telas maiores) -->
     <div class="hidden md:flex md:w-1/4 flex-row items-center justify-between">
-      <span class="font-DMSans font-bold text-lg md:text-2xl text-primary">
-        <a href="/">Advogada Previdenciária</a>
-      </span>
-      <span>Parceria</span>
+      <a
+        href="/"
+        aria-label="Voltar a pagina principal do site Advogada Livia de Almeida Lira"
+      >
+        <h1 class="font-DMSans font-bold text-lg md:text-2xl text-primary">
+          Advogada Previdenciária
+        </h1>
+      </a>
+      <span
+        ><a
+          href="/parceria"
+          aria-label="Link que redireciona para a pagina de parceria"
+          >Parceria</a
+        ></span
+      >
     </div>
 
     <!-- Botão de ação (telas maiores) -->
     <div class="hidden md:flex align-middle justify-center">
-      <span><a [href]="linkwppSite">Fale com um Advogado</a></span>
+      <span
+        ><a
+          [href]="linkwppSite"
+          aria-label="Link que redireciona para whatsapp para falar com o advogado"
+          >Fale com um Advogado</a
+        ></span
+      >
     </div>
   </div>
 
@@ -56,12 +79,18 @@
   >
     <ul class="flex flex-col items-start p-4 space-y-2">
       <li>
-        <a href="/parceria" class="text-gray-700 hover:text-primary"
+        <a
+          href="/parceria"
+          aria-label="Link que redireciona para a pagina de parceria"
+          class="text-gray-700 hover:text-primary"
           >Parceria</a
         >
       </li>
       <li>
-        <a [href]="linkwppSite" class="text-gray-700 hover:text-primary"
+        <a
+          [href]="linkwppSite"
+          aria-label="Link que redireciona para whatsapp para falar com o advogado"
+          class="text-gray-700 hover:text-primary"
           >Fale com um Advogado</a
         >
       </li>

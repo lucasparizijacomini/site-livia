@@ -12,6 +12,7 @@
     </p>
     <a
       class="p-3 bg-white border-solid rounded-3xl w-80 font-bold text-sm"
+      aria-label="Link que redireciona para whatsapp para falar com o advogado"
       [href]="linkwppSite"
       >Fale com um Advogado</a
     >
@@ -29,13 +30,15 @@
       <div
         class="absolute inset-0 flex flex-col items-center justify-center text-center"
       >
-        <span
+        <h2
           class="text-gray-600 justify-center text-center font-bold font-DMSans text-3xl"
-          >{{ item }}
-        </span>
+        >
+          {{ item }}
+        </h2>
         <a
           class="border-2 h-12 mt-10 w-3/4 mr-auto ml-auto mb-6 bg-gray-600 text-white flex p-4 rounded-md font-roboto text-center items-center justify-center"
           [href]="returnLinkSite(item)"
+          aria-label="Link que redireciona para whatsapp para falar com o advogado sobre o assunto selecionado"
           >Saiba se você tem direito</a
         >
       </div>
@@ -46,29 +49,36 @@
     <h1 class="m-5 text-white font-DMSans font-extrabold text-2xl">
       Lívia de Almeida Lira
     </h1>
-    <p class="font-DMSans text-white">
+
+    <h2 class="font-DMSans text-white">
       R. Geraldo de Barros, Sales Oliveira - SP, 14660-000
-    </p>
+    </h2>
 
     <span class="text-white font-DMSans"
-      ><i class="ph ph-whatsapp-logo"></i> (16) 9 9349-3657</span
+      ><i class="ph-fill ph-whatsapp-logo"></i> (16) 9 9349-3657</span
     >
 
     <h2 class="m-5 text-white font-DMSans font-extrabold text-2xl">Siga-nos</h2>
-    <span class="text-white font-DMSans"><a href="#">Facebook</a></span>
-    <span class="text-white font-DMSans"><a href="#">Instagram</a></span>
-    <span class="text-white font-DMSans"><a href="#">Youtube</a></span>
-
-    <div class="text-xl mt-4">
-      <span class="text-white font-DMSans p-2"
-        ><a href="#"><i class="ph-fill ph-facebook-logo"></i></a
-      ></span>
-      <span class="text-white font-DMSans p-2"
-        ><a href="#"><i class="ph-fill ph-instagram-logo"></i></a
-      ></span>
-      <span class="text-white font-DMSans p-2"
-        ><a href="#"><i class="ph-fill ph-youtube-logo"></i></a
-      ></span>
-    </div>
+    <span class="text-white font-DMSans"
+      ><a
+        aria-label="Ir para a pagina do facebook da advogada Lívia de Almeida Lira"
+        href="https://www.facebook.com/share/1BfpEGiGpR/"
+        ><i class="ph-fill ph-facebook-logo"></i> Facebook</a
+      ></span
+    >
+    <span class="text-white font-DMSans"
+      ><a
+        aria-label="Ir para a pagina do instagram da advogada Lívia de Almeida Lira"
+        href="https://www.instagram.com/advprevidenciarialivia?igsh=MWFrNTB3aGNtbXcwZQ=="
+        ><i class="ph-fill ph-instagram-logo"></i>Instagram</a
+      ></span
+    >
+    <span class="text-white font-DMSans"
+      ><a
+        aria-label="Ir para o canal do youtube da advogada Lívia de Almeida Lira"
+        href="https://www.youtube.com/@livialira1390"
+        ><i class="ph-fill ph-youtube-logo"></i>Youtube</a
+      ></span
+    >
   </div>
 </div>
