@@ -17,7 +17,7 @@ export class HomeComponent {
 
     this.arrayBeneficios = [
       'APOSENTADORIAS',
-      'AUXILIO DOENÇA',
+      'AUXÍLIO DOENÇA',
       'APOSENTADORIA POR INVALIDEZ',
       'SALÁRIO MATERNIDADE',
       'PENSÃO POR MORTE',
