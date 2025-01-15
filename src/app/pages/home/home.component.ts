@@ -22,7 +22,7 @@ export class HomeComponent {
       'SALÁRIO MATERNIDADE',
       'PENSÃO POR MORTE',
       'BPC/LOAS',
-      'PLANEJAMENTO PREVIDENCIARIO',
+      'PLANEJAMENTO PREVIDENCIÁRIO',
       'AUXÍLIO ACIDENTE',
       'AUXÍLIO RECLUSÃO',
     ];
